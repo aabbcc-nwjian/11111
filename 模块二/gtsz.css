@@ -1,0 +1,149 @@
+.gong{
+    width: 90px;
+    height: 90px;
+    margin: 50px;
+    border-radius: 50%;
+    border: 2.5px #1dc091 solid;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    color: #1dc091;
+}
+.tong{
+    width: 90px;
+    height: 90px;
+    margin: 50px;
+    border-radius: 50%;
+    border: 2.5px #1dc091 solid;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    color:  #1dc091;
+}
+.su{
+    width: 90px;
+    height: 90px;
+    margin: 50px;
+    border-radius: 50%;
+    border: 2.5px #1dc091 solid;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    color:#1dc091;
+}
+.zhuan{
+    width: 90px;
+    height: 90px;
+    margin: 50px;
+    border-radius: 50%;
+    border: 2.5px #1dc091 solid;
+    text-align: center;
+    align-content: center;
+    font-size: 40px;
+    color: #1dc091;
+}
+.gtsz{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+}
+span{
+    font-size: smaller;
+}
+.wz1 :hover{
+    color: red;
+}
+.wz1{
+    border-right: 0.5px rgb(211, 209, 209) solid;
+    width: 200px;
+    font-size: 15px;
+   
+} 
+.wz{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fk{
+    border: 2px #1dc091 solid;
+    width: 150px;
+    height: 100px;
+    display: table;
+    
+}
+.cy{
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 35px;
+    
+}
+.fk1{
+    border: 2px #1dc091 solid;
+    width: 140px;
+    height: 100px;
+    display: table;
+    border-top: none;   
+}
+.one{
+    font-size: 50px;
+    color: red;
+    width: 140px;
+    height: 102px;
+    line-height: 90px;
+    border-bottom: 2px #1dc091 solid; 
+}
+.two{
+    font-size: 50px;
+    color: red;
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    
+}
+.line1{
+    display: flex;
+     flex-wrap: wrap;
+     justify-content: center; 
+}
+.st{
+    color: #1dc091;
+    font-size: 13px;
+}
+.a1{
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+/*   .tuzi :hover{
+    
+    -webkit-animation: 1s linear 0s  skidein;
+    animation: 1s linear 0s  skidein;  
+  }
+  @keyframes skidein{
+        from{
+            transform: translatey(0%);
+        }
+        to{
+            transform: translatey(-200%);
+        }
+      } */
+      .tp2{
+        height: 80px;
+        margin-left: 8%;
+      }  
+     .tu{
+        width: 70px;
+     }
+     @keyframes skidein{
+        from{
+            transform: translatey(0%);
+        }
+        to{
+            transform: translatey(-100%);
+        }
+      }
+      .gf:hover>.tuzi2{
+      -webkit-animation: 1s linear 0s  skidein;
+      animation: 1s linear 0s  skidein;
+      animation-fill-mode: forwards;
+      } 
