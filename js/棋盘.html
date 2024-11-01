@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let c=9
+    let one=1
+    let hang=prompt("")
+    let lie=prompt("")
+    let d=hang*lie
+    let nc=parseFloat(lie) + one
+    let nd=nc*hang
+    let chess=""
+    let count=0
+    let sty=lie%2
+while (count<nd&sty==0) {
+   count++
+   let a=count%2
+   let b=count%nc
+   if(b==0){
+    chess=chess+"\n"
+   }
+   else if(a==0){
+    chess=chess+"#"
+   }
+   else{
+    chess=chess+" "
+   }
+}
+while (count<d&sty==1) {
+   count++
+   let a=count%2
+   let b=count%lie
+   if(b==0&a==0){
+    chess=chess+"#"+"\n"
+    
+   }
+   else if(b==0&a==1){
+    chess=chess+" "+"\n"
+   }
+   else if(a==0){
+    chess=chess+"#"
+   }
+   else{
+    chess=chess+" "
+   }
+}
+console.log(chess);
+</script>
+<body>
+    
+</body>
+</html>
