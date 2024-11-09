@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function listnode(value, next = null) {
+          this.value = value
+          this.next = next
+        }
+        function arraylist(arr) {
+          let head = null
+          for (let i = arr.length - 1; i >=0; i--) {
+            head =new
+            listnode(arr[i],head)
+          }
+           return head;
+        }
+        function listarray(list) {
+          const result =[]
+          let current = list
+          while(current){
+            result.push(current.value)
+            current = current.next
+          }
+          return result;
+        }
+        function add(element, list) {
+          return new listnode(element,list)
+        }
+        function position(list,index) {
+          if (index<0) {
+            return undefined
+          }
+          for (let i = 0; i < index; i++) {
+            if (i=index) {
+              const ele=list[i]
+              return ele
+            }
+          }
+          return list[index]
+        }
+        
+        const a=[10,20]
+        console.log(arraylist(a));
+        
+        let b = arraylist([10,20,30])
+        console.log(listarray(b));
+        
+        let x=[]
+        let c=arraylist(x)
+        const d=add(20,c)
+        const e=add(10,d)
+        console.log(e);
+        
+        let f=[10,20,30]
+        console.log(position(f,0));
+        </script>   
+</body>
+</html>

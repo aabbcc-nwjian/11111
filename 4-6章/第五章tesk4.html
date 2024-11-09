@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function dominantDirection(text) {
+          let ltrCount = 0;
+          let rtlCount = 0;
+        
+          for (let i = 0; i < text.length; i++) {
+            const charCode = text.charCodeAt(i);
+            if (charCode >= 65 && charCode <= 122 || (charCode >= 48 && charCode <= 57)) {
+              ltrCount++;
+            }
+            else if ((charCode >= 1536 && charCode <= 1567) || (charCode >= 1425 && charCode <= 1535)) {
+              rtlCount++;
+            }
+          }
+          return ltrCount > rtlCount ? 'ltr' : 'rtl';
+        }
+        
+        console.log(dominantDirection("Hello!"));
+        console.log(dominantDirection("مساء الخير"));
+        </script>   
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class Group {
+         constructor() {
+             this.items = new Map(); 
+         }
+     
+         add(value) {
+             if (!this.items.has(value)) {
+                 this.items.set(value, value);
+                 return true;
+             }
+             return false;
+         }
+     
+         delete(value) {
+             return this.items.delete(value);
+         }
+     
+         has(value) {
+             return this.items.has(value);
+         }
+     
+         static fromIterable(iterable) {
+             const group = new Group();
+             for (const value of iterable) {
+                 group.add(value);
+             }
+             return group;
+         }
+     }
+     
+     const group = new Group();
+     group.add(10,20);
+     console.log(group.has(10)); 
+     console.log(group.has(30)); 
+     group.delete(10);
+     console.log(group.has(10));
+       </script>  
+</body>
+</html>
