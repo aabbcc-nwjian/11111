@@ -1,0 +1,39 @@
+.txtp{
+    width: 50px;
+}
+.tx{
+    color: white;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(68, 63, 63);
+    font-size: 10px;
+    display: none;
+    transform:  0.5s linear;
+}
+.picture{
+    float: left;
+}
+.rig{
+    margin-bottom: 5px;
+}
+.touxiang{
+    width: 140px;
+    height: 70px;
+    font-size: 9px;
+    background-color: aqua;
+    float: right;
+}
+.picture0:hover>.tx{
+    display: block;
+}
+.picture0{
+    width: 35px;
+    position: absolute;
+}
+.txtp0{
+    width: 35px;
+    position: absolute;
+}
+.picture0:hover>.txtp0{
+    display: none;
+}

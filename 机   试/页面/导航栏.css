@@ -1,0 +1,80 @@
+.daohang{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-bottom: 0.5px solid rgb(196, 193, 193);
+    border-top: 2px solid orange;
+    position: fixed;
+    top: 0;
+    }
+    
+    li{
+        list-style-type: none;
+    }
+    .button1{
+        width: 90px;
+        height: 30px;
+        background-color: white;
+        color: dodgerblue;
+        border: 1.5px solid dodgerblue;
+        border-radius: 5px;
+    }
+    .button2{
+        width: 90px;
+        height: 30px;
+        background-color: white;
+        color: dodgerblue;
+        border: 1.5px solid dodgerblue;
+        border-radius: 5px;
+    }
+    .button1:hover{
+        background-color: dodgerblue;
+        color: white;
+    }
+    .button2:hover{
+        background-color: dodgerblue;
+        color: white;
+    }
+    .log1{
+        width: 30px;
+    }
+    .one,.button1,.button2{
+        float: left;
+        margin-top: 20px;
+        
+    }
+    .one,.on{
+        margin-left: 30px;
+    }
+    .button1,.button2{
+        margin-left: 20px;
+    }
+    .dh{
+        height: 60px;
+        width: 80%;
+        margin-left: 10%;
+        display: flex;
+        justify-content: center;
+    }
+    .on{
+        width: 500px;
+        float: left;
+        margin-top: 20px;
+        height: 25px;
+    }
+    .one{
+        width: 100px;
+        height: 25px;
+        border-radius: 3px;
+        text-align: center;
+    }
+    .one:hover{
+        background-color: gray;
+    }
+    .lo1{
+        margin-top: 16px;
+        margin-left: 40px;
+    }
+    .stacko{
+        margin-top: 20px;
+    }

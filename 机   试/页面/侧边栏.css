@@ -1,0 +1,48 @@
+.wenb1{
+    width: 70% ;
+    height: 200px;
+    float: right;
+    font-size: 15px;
+    border-bottom: 0.5px solid gray;
+    margin-right: 10%;
+    margin-top: 70px;
+   }
+   .button3{
+    float: right;
+    height: 40px;
+    width: 100px;
+    background-color:dodgerblue;
+    border: 1.5px solid dodgerblue;
+    border-radius: 5px;
+    color: white;
+  margin-top: 20px;
+    
+   }
+
+.te{
+  font-size: 7px;
+}
+
+.cebian{
+width: 12%;
+margin-left: 5%;
+border-right: 0.5px solid gray;
+font-size: 10px;
+position: fixed;
+margin-top: 63px;
+}
+
+.learnm{
+width: 120px;
+height: 30px;
+background-color: white;
+
+border-radius: 5px;
+margin-top: 5px;
+text-align: center;
+margin-left: 30px;
+}
+.learnm:hover{
+background-color: orange;
+color: white;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let ver1='1.01'
+        let ver2= '1.001'
+        const a = ver1.split('.')
+        const b = ver2.split('.')
+        let c = Math.min(a.length,b.length)        
+        for (let i = 0; i < c; i++) {
+            const one = parseInt(a[i])
+            const two = parseInt(b[i])
+             if (one!==two) {
+                if (one<two) {
+                console.log(-1);
+                break
+            }
+            if(one>two){
+                console.log(1);
+                break
+            }
+             }
+            if(one==two){
+                console.log(0);
+                break
+            }
+            
+        }
+    </script>
+</body>
+</html>
